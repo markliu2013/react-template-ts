@@ -9,8 +9,7 @@
     "dev": "webpack serve --mode development",
     "lint": "eslint ./src --ext .ts,.tsx,.js,.jsx",
     "lint:fix": "eslint ./src --ext .ts,.tsx,.js,.jsx --fix",
-    "format": "prettier 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --write",
-    "prepare": "husky"
+    "format": "prettier 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --write"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx,js,jsx}": [
