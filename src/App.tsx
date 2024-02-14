@@ -2,7 +2,7 @@
 import { FC } from 'react';
 
 const App: FC = () => {
-  return <h1>Hello React13</h1>;
+  return <h1>Hello React3</h1>;
 };
 
 export default App;
