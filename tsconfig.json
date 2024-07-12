@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     // Emit Configuration
-    "noEmit": true,
+    "noEmit": false,
 
     // Type Checking Configuration
     "allowUnreachableCode": false,
@@ -37,7 +37,8 @@
     "checkJs": true,
 
     // Interop Constraints Configuration
-    "esModuleInterop": true,
+//    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": false,
     "isolatedModules": true
   },
   "include": ["src/**/**/*"],
